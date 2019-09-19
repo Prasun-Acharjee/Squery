@@ -8,7 +8,7 @@ class Homepage extends Component{
         const steps=[
             {
                 id: '0',
-                message: 'Welcome to Squery!',
+                message: `${user.message}`,
                 trigger: '1'
             },
             {
